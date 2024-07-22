@@ -1,0 +1,41 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 70px;
+    z-index: 101;
+    padding-top: 5px;
+
+}
+
+.sidebar-box{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sidebar-box:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+.home-icon,
+.explore-icon,
+.subscription-icon,
+.originals-icon,
+.music-icon,
+.library-icon{
+    height: 25px;
+    background: none;
+    
+}
+  
+.sidebar-text{
+    font-family: Roboto, Arial;
+    font-size: 9px;
+
+} 
